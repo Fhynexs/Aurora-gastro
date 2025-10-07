@@ -1,0 +1,31 @@
+@import url("./global.css");
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding:20px 0px;
+
+}
+
+.nav-header ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+.nav-header ul li a{
+    color:var(--color-secundaryBLK);
+    text-decoration: none; /*tira o underscore */
+    font-family: var(--font-body);
+}
+
+.btn-header{
+    background-color: var(--color-primary);
+    padding: 12px 30px;
+    font-family: var(--font-title);
+    border-radius: 15px 3px;
+    text-decoration: none;
+    color: var(--color-secundaryWht);
+    font-size: var(--font-button-size);
+}
