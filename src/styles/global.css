@@ -22,3 +22,19 @@
     --font-title: "David Libre", serif; ;
     --font-body: "Inter", sans-serif; ;
 }
+
+.btn-secondary, .btn-primary{
+    padding: 12px 30px;
+    color: var(--color-secundaryWht);
+    border-radius: 15px 3px;
+    text-decoration: none;
+    font-family:var(--font-title) ;
+}
+
+.btn-primary{
+    background-color: var(--color-primary);
+}
+
+.btn-secondary{
+    background-color: var(--color-secundaryBlk);
+}
