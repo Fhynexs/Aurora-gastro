@@ -7,6 +7,7 @@
 
 :root{
     --color-primary:#EA6D27;
+    --color-primary-orange-10: rgba(234, 111, 39, 0.1);  
     --color-secundaryWht:#FFFFFF;
     --color-secundaryBlk:#101821;
     --color-secundaryGry:#5C6574;
@@ -37,4 +38,9 @@
 
 .btn-secondary{
     background-color: var(--color-secundaryBlk);
+}
+
+h2{
+    font-family: var(--font-title);
+    font-size: var(--font-headline-h2-size);
 }
