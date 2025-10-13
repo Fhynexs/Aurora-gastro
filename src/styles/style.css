@@ -347,3 +347,93 @@ form button{
     height: 60vh;
 
 }
+
+footer{
+
+    display: flex;
+    justify-content: space-around;
+    padding: 60px 0px;
+    align-items: center;
+
+}
+
+.footer-copyright{
+    display: flex;
+    flex-direction: column;    
+    gap: 25px;
+}
+
+.copyright{
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-family: var(--font-body);
+    font-size: (--font-body-size);
+
+}
+
+.footer-socials{
+
+    display: flex;
+    gap: 15px;
+
+}
+
+.social-icons{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 7px;
+    background-color: var(--color-secundaryGry);
+    border-radius: 50%;
+    transition: 0.3s ;
+
+}
+
+.social-icons:hover{
+
+    background-color:var(--color-primary) ;
+    transform: translateY(-10px);
+
+}
+
+.container-footer-navigation{
+
+    display: flex;
+    gap: 80px;
+
+}
+
+.footer-navigation{
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.footer-navigation h2{
+
+    font-family: var(--font-title);
+    font-size: var(--font-headline-h3-size)
+
+}
+
+.footer-navigation ul{
+
+    display: flex;
+    flex-direction: column;
+    gap: 10x;
+    list-style: none;
+
+}
+
+.footer-navigation ul li a{
+
+    text-decoration: none;
+    color: var(--color-secundaryBlk);
+    font-family: var(--font-body);
+
+}
